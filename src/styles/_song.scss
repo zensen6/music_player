@@ -1,0 +1,43 @@
+.song-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	width: 50vh;
+	height: 70vh;
+	.cover {
+		border-radius: 50%;
+		width: 70%;
+		width: 70%;
+	}
+
+	.song-name {
+		color: gray;
+	}
+
+	.play {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 80%;
+	}
+
+	.range {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+		width: 90%;
+		input {
+			width: 100%;
+			padding: 1rem 0rem;
+		}
+	}
+
+	.reply {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

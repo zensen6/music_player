@@ -1,0 +1,19 @@
+@import "./song";
+@import "./player";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+	color: rgb(61, 61, 61);
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
